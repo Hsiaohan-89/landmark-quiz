@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    justify-content: center;
+
+}
+
+.score-area {
+    display: grid;
+    grid-template-areas: 'myArea myArea';
+    gap: 40px;
+
+}
