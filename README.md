@@ -1,39 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Lnadmark Quiz
 
-Welcome,
+## Overview
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+  ![Landmark Quiz mockup image](put the mockup jpg file here)
+  ![Link to my Landmark Quiz.](put the link here)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Landmark Quiz
 
-## Codeanywhere Reminders
+Landmark Quiz is a website that features landmark pictures from different countries for users to guess which country they belong to. The game includes 21 landmarks from all over the world, spanning across Asia, Europe, and the US. By playing this game, users can expand their knowledge about the world and test their familiarity with different countries' landmarks. With each correct or incorrect answer, users can earn points and measure their progress.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+[Back to top ⇧](#landmark-quiz)
 
-`python3 -m http.server`
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- **Header**
 
-`http_server`
+  - Featured at the top of the page, the header shows the game name. Landmark Quiz in a font xxxx
+  - This header clearly tell the user what game they are playing.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Header](put your heaser jpg here)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **The Game Option**
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The game option is a multiple-choice quiz where users choose the correct country for each landmark.
+  - you could start by displaying a landmark image and offering three possible country options.
+  - This section provides interactive buttons that users can click to select the country that they think it is.
 
-To log into the Heroku toolbelt CLI:
+![The Game Option](put your heaser jpg here)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- **The Game Results**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - When the user clicks an option, the information such as the number of landmarks correctly identified, the number of attempts made, will shown in the below of the option.
+  - The results and the socre are clear to user, making the game easy to play. understand how many quiz has been answered.
 
----
+![The Game Results](put your heaser jpg here)
 
-Happy coding!
+- **The Footer**
+
+  - The footer shows the game designer's social meida account for the user who likes this game to connect.
+  
+![The Footer](put your heaser jpg here)
+
+### Features to Implement in the future
+
+- xxxxxxx
+
+## Testing
+
+### Manual Testing
