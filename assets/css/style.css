@@ -1,7 +1,36 @@
+/*General styles*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    min-height: 100vh;
+}
+
 .container {
     display: grid;
     justify-content: center;
+    gap: 20px 100px;
+}
 
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+ul {
+    display: none;
+}
+
+.landmark {
+    background-color: orange;
 }
 
 .score-area {
