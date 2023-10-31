@@ -46,6 +46,19 @@ Landmark Quiz is a website that features landmark pictures from different countr
 ### Features to Implement in the future
 
 - xxxxxxx
+  
+## Design
+
+#### Typography
+
+The typography pairing used on the site are [Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface?preview.text=hello&preview.text_type=custom&query=Abril+Fatface). imported from [Google Fonts](https://fonts.google.com/).A backup of Sans-Serif had been applied in case of import failure.
+Abril Fatface was chosen for the title on the header, and using for the heading.
+
+#### Imagery
+The pictures were found from the [Travel news website](https://kknews.cc/travel/xmplpaq.html#google_vignette).
+
+#### Icons
+The icons resources is from [Font Awesome](https://fontawesome.com/).
 
 ## Testing
 
