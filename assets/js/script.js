@@ -3,52 +3,52 @@
  */
 const questions = [
   {
-    question: "/assets/images/Australia.jpg",
+    image: "/assets/images/Australia.jpg",
     answers: ["Germany", "Australia", "New Zealand"],
     correctAnswer: "Australia",
   },
   {
-    question: "/assets/images/brazil.jpg",
+    image: "/assets/images/brazil.jpg",
     answers: ["United States", "Mexico", "Brazil"],
     correctAnswer: "Brazil",
   },
   {
-    question: "/assets/images/Egypt.jpg",
+    image: "/assets/images/Egypt.jpg",
     answers: ["Sudan", "Egypt", "Jordan"],
     correctAnswer: "Egypt",
   },
   {
-    question: "/assets/images/Japan.jpg",
+    image: "/assets/images/Japan.jpg",
     answers: ["Japan", "France", "Korea"],
     correctAnswer: "Japan",
   },
   {
-    question: "/assets/images/UK.jpg",
+    image: "/assets/images/UK.jpg",
     answers: ["Germany", "Ireland", "United Kimdom"],
-    correctAnswer: "United Kimdom",
+    correctAnswer: "United Kingdom",
   },
   {
-    question: "/assets/images/Italy.jpg",
+    image: "/assets/images/Italy.jpg",
     answers: ["Italy", "Portugal", "Slovenia"],
     correctAnswer: "Italy",
   },
   {
-    question: "/assets/images/Turkey.jpg",
+    image: "/assets/images/Turkey.jpg",
     answers: ["Plovdiv", "Serbia", "Turkey"],
     correctAnswer: "Turkey",
   },
   {
-    question: "/assets/images/Korea.jpg",
+    image: "/assets/images/Korea.jpg",
     answers: ["Korea", "China", "Taiwan"],
     correctAnswer: "Korea",
   },
   {
-    question: "/assets/images/Malasia.jpg",
+    image: "/assets/images/Malasia.jpg",
     answers: ["Indonesia", "Malaysia", "Thailand"],
     correctAnswer: "Malaysia",
   },
   {
-    question: "/assets/images/Singapore.jpg",
+    image: "/assets/images/Singapore.jpg",
     answers: ["Thanland", "Taiwan", "Singapore"],
     correctAnswer: "Singapore",
   },
@@ -57,7 +57,7 @@ const questions = [
 /**
  * The score and the question start from 0.
  */
-let currentQuestionindex = 0;
+let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
 
@@ -68,19 +68,19 @@ function loadQuestion(index) {
   questionImage.src = questions[index].image;
 
   for (let i = 0; i < answerButtons.length; i++) {
-    answerButtons.length[i].textContent = questions[index].answers[i];
+    answerButtons[i].textContent = questions[index].answers[i];
   }
 }
 
 function checkAnswer(button) {
-  if (button.textContent === questions[currentQuestionindex].correctAnswer) {
+  if (button.textContent === questions[currentQuestionIndex].correctAnswer) {
     correctAnswers++;
   }
 
-  currentQuestionindex++;
+  currentQuestionIndex++;
 
-  if (currentQuestionindex < questions.length) {
-    loadQuestion(currentQuestionindex);
+  if (currentQuestionIndex < questions.length) {
+    loadQuestion(currentQuestionIndex);
   } else {
     endQuiz();
   }
@@ -96,4 +96,4 @@ function endQuiz() {
 /**
  * To start the game in the first
  */
-loadQuestion(currentQuestionindex);
+loadQuestion(currentQuestionIndex);

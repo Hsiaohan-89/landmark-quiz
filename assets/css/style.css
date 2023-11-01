@@ -70,8 +70,8 @@ img {
 }
 
 .btn:hover {
-    background-color: #222;
-    color: #222;
+    background: #222;
+    color: #fff;
 }
 
 #submit {

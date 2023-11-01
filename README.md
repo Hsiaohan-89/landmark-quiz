@@ -3,7 +3,7 @@
 ## Overview
 
   ![Landmark Quiz mockup image](assets/READMEfiles/Am_i_responsive.jpg)
-  ![Link to my Landmark Quiz.](https://hsiaohan-89.github.io/landmark-quiz/)
+  [Link to my Landmark Quiz.](https://hsiaohan-89.github.io/landmark-quiz/)
 
 ## Landmark Quiz
 
@@ -48,6 +48,20 @@ Landmark Quiz is a website that features landmark pictures from different countr
 - xxxxxxx
   
 ## Design
+
+#### Skeleton
+
+Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
+
+<details>
+<summary>Balsamiq Wireframes</summary>
+
+![Site Wireframes](assets/READMEfiles/New%20Wireframe%201.png)
+![Site Wireframes](assets/READMEfiles/New%20Wireframe%202.png)
+![Site Wireframes](assets/READMEfiles/New%20Wireframe%203.png)
+
+</details>
+
 
 #### Typography
 
