@@ -1,5 +1,5 @@
 /**
- * set Questions by useing array and boolean 
+ * Create Questions by useing array
  */
 const questions = [
     {
@@ -87,26 +87,3 @@ function checkAnswer(button){
         endQuiz();
     }
 }
-
-
-
-
-
-/*function updateImage(question) {
-    imageElement.src = question.image;
-}
-updateImage(quizQuestions[0]);*/
-
-
-
-
-/*function startQuiz() {
-    currentQuestionindex = 0;
-    score = 0;
-    showQuestion();
-}
-function showQuestion() {
-    let currentQuestion = questions[currentQuestionindex];
-    let questionNo = currentQuestionindex + 1;
-    imageElement.src = questionNo + "." + currentQuestion.question;
-}*/
