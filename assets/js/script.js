@@ -41,11 +41,11 @@ const questions = [
         question: "/asstes/images/Korea.jpg",
         answers: ["Korea", "China", "Taiwan"],
         correctAnswer: "Korea",
-        
+
     },
     {
         question: "/asstes/images/Malasia.jpg",
-        answers: ["Indonesia", "Malaysia","Thailand"],
+        answers: ["Indonesia", "Malaysia", "Thailand"],
         correctAnswer: "Malaysia",
     },
     {
@@ -62,21 +62,21 @@ let currentQuestionindex = 0;
 let score = 0;
 
 function loadQuestion(index) {
-    const questionElement = document.getElementById("question-image");
+    //const questionElement = document.getElementById("question-image");
     const answerbutton = document.getElementById("answer-btn");
-    const imageElement = document.getElementById("question");
+    const imageElement = document.getElementById("question-image");
 
 
-    imageElement.src = questions[index].image;
+    imageElement.src = questions[index].question;
 
     for (let i = 0; i < answers.length; i++) {
         answers[i].textContent = questions[index].answers[i];
     }
 }
 
-function checkAnswer(button){
-    if (button.textContent === questions[currentQuestionindex].correctAnswer){
-        score++
+function checkAnswer(button) {
+    if (button.textContent === questions[currentQuestionindex].correctAnswer) {
+        score++;
     }
 
     currentQuestionindex++;
