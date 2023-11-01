@@ -2,8 +2,8 @@
 
 ## Overview
 
-  ![Landmark Quiz mockup image](put the mockup jpg file here)
-  ![Link to my Landmark Quiz.](put the link here)
+  ![Landmark Quiz mockup image](assets/READMEfiles/Am_i_responsive.jpg)
+  ![Link to my Landmark Quiz.](https://hsiaohan-89.github.io/landmark-quiz/)
 
 ## Landmark Quiz
 
