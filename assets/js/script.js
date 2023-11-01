@@ -8,7 +8,7 @@ const questions = [
     correctAnswer: "Australia",
   },
   {
-    question: "/assets/images/Brazil.jpg",
+    question: "/assets/images/brazil.jpg",
     answers: ["United States", "Mexico", "Brazil"],
     correctAnswer: "Brazil",
   },
