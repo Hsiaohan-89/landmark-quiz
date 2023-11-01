@@ -58,22 +58,23 @@ const questions = [
  * The score and the question start from 0.
  */
 let currentQuestionindex = 0;
-let score = 0;
+let correctAnswers = 0;
+let incorrectAnswers = 0;
 
 function loadQuestion(index) {
-  const answers = document.querySelectorAll(".btn");
-  const imageElement = document.getElementById("question-image");
+  const answerButtons = document.getElementsByClassName("btn");
+  const questionImage = document.getElementById("question-image");
 
-  imageElement.src = questions[index].question;
+  questionImage.src = questions[index].image;
 
-  for (let i = 0; i < answers.length; i++) {
-    answers[i].textContent = questions[index].answers[i];
+  for (let i = 0; i < answerButtons.length; i++) {
+    answerButtons.length[i].textContent = questions[index].answers[i];
   }
 }
 
 function checkAnswer(button) {
   if (button.textContent === questions[currentQuestionindex].correctAnswer) {
-    score++;
+    correctAnswers++;
   }
 
   currentQuestionindex++;
@@ -85,9 +86,11 @@ function checkAnswer(button) {
   }
 }
 function endQuiz() {
-  const container = document.getElementById("container");
-  container.innerHTML = `<h1>Quiz Completed!</h1>
-    <p>Your Score: ${score} out of ${quizQuestions.length}</p>`;
+  document.getElementById("answer-btn").style.display = "none";
+  document.getElementById("submit").style.display = "block";
+
+  document.getElementById("score-correct").textContent = correctAnswers;
+  document.getElementById("score-incorrect").textContent = incorrectAnswers;
 }
 
 /**
