@@ -1,83 +1,112 @@
-const question = [
+/**
+ * set Questions by useing array and boolean 
+ */
+const questions = [
     {
-        question: = "/asstes/images/Austrila.jpg"
-        answers: [
-            { text: "Germany", correct: false },
-            { text: "Australia", correct: true },
-            { text: "New Zealand", correct: false },
-        ]
+        question: "Australia.jpg",
+        answers: ["Germany", "Australia", "New Zealand"],
+        correctAnswer: "Australia",
     },
     {
-        question: = "/asstes/images/Brazil.jpg"
-        answers: [
-            { text: "United States", correct: false },
-            { text: "Mexico", correct: false },
-            { text: "Brazil", correct: true },
-        ]
+        question: "Brazil.jpg",
+        answers: ["United States", "Mexico", "Brazil"],
+        correctAnswer: "Brazil",
     },
     {
-        question: = "/asstes/images/Egypt.jpg"
-        answers: [
-            { text: "Sudan", correct: false },
-            { text: "Egypt", correct: true },
-            { text: "Jordan", correct: false },
-        ]
+        question: "/asstes/images/Egypt.jpg",
+        answers: ["Sudan", "Egypt", "Jordan"],
+        correctAnswer: "Egypt",
     },
     {
-        question: = "/asstes/images/Japan.jpg"
-        answers: [
-            { text: "Japan", correct: true },
-            { text: "France", correct: false },
-            { text: "Korea", correct: false },
-        ]
+        question: "/asstes/images/Japan.jpg",
+        answers: ["Japan", "France", "Korea"],
+        correctAnswer: "Japan",
     },
     {
-        question: = "/asstes/images/UK.jpg"
-        answers: [
-            { text: "Germany", correct: false },
-            { text: "Ireland", correct: false },
-            { text: "United Kimdom", correct: true },
-        ]
+        question: "/asstes/images/UK.jpg",
+        answers: ["Germany", "Ireland", "United Kimdom"],
+        correctAnswer: "United Kimdom",
     },
     {
-        question: = "/asstes/images/Italy.jpg"
-        answers: [
-            { text: "Italy", correct: true },
-            { text: "Portugal", correct: false },
-            { text: "Slovenia", correct: false },
-        ]
+        question: "/asstes/images/Italy.jpg",
+        answers: ["Italy", "Portugal", "Slovenia"],
+        correctAnswer: "Italy",
     },
     {
-        question: = "/asstes/images/Turkey.jpg"
-        answers: [
-            { text: "Plovdiv", correct: false },
-            { text: "Serbia", correct: false },
-            { text: "Turkey", correct: true },
-        ]
+        question: "/asstes/images/Turkey.jpg",
+        answers: ["Plovdiv", "Serbia", "Turkey"],
+        correctAnswer: "Turkey",
     },
     {
-        question: = "/asstes/images/Korea.jpg"
-        answers: [
-            { text: "Korea", correct: true },
-            { text: "China", correct: false },
-            { text: "Taiwan", correct: false },
-        ]
+        question: "/asstes/images/Korea.jpg",
+        answers: ["Korea", "China", "Taiwan"],
+        correctAnswer: "Korea",
+        
     },
     {
-        question: = "/asstes/images/Malasia.jpg"
-        answers: [
-            { text: "Indonesia", correct: false },
-            { text: "Malaysia", correct: true },
-            { text: "Thailand", correct: false },
-        ]
+        question: "/asstes/images/Malasia.jpg",
+        answers: ["Indonesia", "Malaysia","Thailand"],
+        correctAnswer: "Malaysia",
     },
     {
-        question: = "/asstes/images/Singapore.jpg"
-        answers: [
-            { text: "Thanland", correct: false },
-            { text: "Taiwan", correct: false },
-            { text: "Singapore", correct: true },
-        ]
-    },
+        question: "/asstes/images/Singapore.jpg",
+        answers: ["Thanland", "Taiwan", "Singapore"],
+        correctAnswer: "Singapore",
+    }
 ];
 
+/**
+ * The score and the question start from 0.
+ */
+let currentQuestionindex = 0;
+let score = 0;
+
+function loadQuestion(index) {
+    const questionElement = document.getElementById("question-image");
+    const answerbutton = document.getElementById("answer-btn");
+    const imageElement = document.getElementById("question");
+
+
+    imageElement.src = questions[index].image;
+
+    for (let i = 0; i < answers.length; i++) {
+        answers[i].textContent = questions[index].answers[i];
+    }
+}
+
+function checkAnswer(button){
+    if (button.textContent === questions[currentQuestionindex].correctAnswer){
+        score++
+    }
+
+    currentQuestionindex++;
+
+    if (currentQuestionindex < questions.length) {
+        loadQuestion(currentQuestionindex);
+    } else {
+        endQuiz();
+    }
+}
+
+
+
+
+
+/*function updateImage(question) {
+    imageElement.src = question.image;
+}
+updateImage(quizQuestions[0]);*/
+
+
+
+
+/*function startQuiz() {
+    currentQuestionindex = 0;
+    score = 0;
+    showQuestion();
+}
+function showQuestion() {
+    let currentQuestion = questions[currentQuestionindex];
+    let questionNo = currentQuestionindex + 1;
+    imageElement.src = questionNo + "." + currentQuestion.question;
+}*/
