@@ -70,11 +70,11 @@ img {
 }
 
 .btn:hover {
-    background-color: #222;
-    color: #fff;
+    backgrsubmitlor: #222;
+    color: #222;
 }
 
-#newGame {
+#submit {
     border: none;
     padding: .5rem;
     color: white;
