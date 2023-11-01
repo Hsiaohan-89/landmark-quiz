@@ -2,8 +2,8 @@
 
 ## Overview
 
-  ![Landmark Quiz mockup image](assets/READMEfiles/Am_i_responsive.jpg)
-  [Link to my Landmark Quiz.](https://hsiaohan-89.github.io/landmark-quiz/)
+![Landmark Quiz mockup image](assets/READMEfiles/Am_i_responsive.jpg)
+[Link to my Landmark Quiz.](https://hsiaohan-89.github.io/landmark-quiz/)
 
 ## Landmark Quiz
 
@@ -20,7 +20,7 @@ Landmark Quiz is a website that features landmark pictures from different countr
   - Featured at the top of the page, the header shows the game name. Landmark Quiz in a font xxxx
   - This header clearly tell the user what game they are playing.
 
-![Header](put your heaser jpg here)
+![Header](assets/READMEfiles/header.jpg)
 
 - **The Game Option**
 
@@ -28,25 +28,19 @@ Landmark Quiz is a website that features landmark pictures from different countr
   - you could start by displaying a landmark image and offering three possible country options.
   - This section provides interactive buttons that users can click to select the country that they think it is.
 
-![The Game Option](put your heaser jpg here)
+![The Game Option](assets/READMEfiles/gameoption.jpg)
 
 - **The Game Results**
 
   - When the user clicks an option, the information such as the number of landmarks correctly identified, the number of attempts made, will shown in the below of the option.
   - The results and the socre are clear to user, making the game easy to play. understand how many quiz has been answered.
 
-![The Game Results](put your heaser jpg here)
-
-- **The Footer**
-
-  - The footer shows the game designer's social meida account for the user who likes this game to connect.
-  
-![The Footer](put your heaser jpg here)
+![The Game Results](assets/READMEfiles/result.jpg)
 
 ### Features to Implement in the future
 
 - xxxxxxx
-  
+
 ## Design
 
 #### Skeleton
@@ -56,12 +50,11 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 <details>
 <summary>Balsamiq Wireframes</summary>
 
-![Site Wireframes](assets/READMEfiles/New%20Wireframe%201.png)
-![Site Wireframes](assets/READMEfiles/New%20Wireframe%202.png)
-![Site Wireframes](assets/READMEfiles/New%20Wireframe%203.png)
+![Site Wireframes](assets/READMEfiles/New_Wireframe_1.png)
+![Site Wireframes](assets/READMEfiles/New_Wireframe_2.png)
+![Site Wireframes](assets/READMEfiles/New_Wireframe_3.png)
 
 </details>
-
 
 #### Typography
 
@@ -69,11 +62,79 @@ The typography pairing used on the site are [Abril Fatface](https://fonts.google
 Abril Fatface was chosen for the title on the header, and using for the heading.
 
 #### Imagery
+
 The pictures were found from the [Travel news website](https://kknews.cc/travel/xmplpaq.html#google_vignette).
 
 #### Icons
+
 The icons resources is from [Font Awesome](https://fontawesome.com/).
+
+[Back to top ⇧](#landmark-quiz)
+
+## Issues and Bugs
+
+## Technologies Used
+
+### Main Languages Used
+
+- [HTML](https://validator.w3.org/#validate_by_upload "Link to HTML markup validation service")
+- [CSS](https://validator.w3.org/#validate_by_upload "Link to CSS validation service")
+- [JAVASCRIPT](https://jshint.com/ "Link to JS Hint validator")
+
+### Frameworks, Libraries & Programs Used
+
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+  - Google fonts was used to import the fonts "Abril Fatface", "Serif" into the HTML file. These fonts were used throughout the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+  - Font Awesome was used on icon in font of the Header.
+- [Codeanywhere](https://codeanywhere.com/ "Link to codeanywhere homepage")
+  - Codeanywhere was used for writing code, commiting, and then pushing to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+  - GitHub was used to store the project after pushing
+- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
+  - Balsamiq was used to create the wireframes during the design phase of the project.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+[Back to top ⇧](#landmark-quiz)
 
 ## Testing
 
 ### Manual Testing
+
+### Lighthouse Testing
+
+## Deployment
+
+This project was developed using [codeanywhere](https://codeanywhere.com/ "Link to codeanywhere site"), which was then committed and pushed o GitHub using the GitPhub terminal.
+
+### Deploying on GitHub Pages
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/Hsiaohan-89/Iris-Chen-portfolio "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Main".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "Pages" section to retrieve the deployed link.
+
+## Credits
+
+### Content
+
+- Some of the frame design ideas were borrowed and adapted from various sites below:
+  - [Love maths website](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode)
+  - [GreatStack](https://www.youtube.com/@GreatStackDev)
+  - [Mikke Gose Coding](https://mikkegoes.com/javascript-projects-for-beginners/)
+
+### Media
+
+- The backgronnd is sourced from [Pexels](https://www.pexels.com/search/map/).
+
+[Back to top ⇧](#landmark-quiz)
+
+## Acknowledgements
+
+[Back to top ⇧](#landmark-quiz)
