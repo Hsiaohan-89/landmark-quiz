@@ -7,7 +7,7 @@
 
 ## Landmark Quiz
 
-Landmark Quiz is a website that features landmark pictures from different countries for users to guess which country they belong to. The game includes 21 landmarks from all over the world, spanning across Asia, Europe, and the US. By playing this game, users can expand their knowledge about the world and test their familiarity with different countries' landmarks. With each correct or incorrect answer, users can earn points and measure their progress.
+Landmark Quiz is a website that features landmark pictures from different countries for users to guess which country they belong to. The game includes 10 landmarks from all over the world, spanning across Asia, Europe, and the US. By playing this game, users can expand their knowledge about the world and test their familiarity with different countries' landmarks. With each correct or incorrect answer, users can earn points and measure their progress.
 
 [Back to top ⇧](#landmark-quiz)
 
@@ -72,6 +72,19 @@ The icons resources is from [Font Awesome](https://fontawesome.com/).
 [Back to top ⇧](#landmark-quiz)
 
 ## Issues and Bugs
+
+The developer ran into a lot of the issues during the developemnnt of the game.
+
+**Landmark Image** - A bug was deteced in the early stage, the image was not able to load when the game started. Only has the fram showed when user clicked the button.
+
+<details>
+<summary>Landmark Image</summary>
+
+![Landmark Image](assets/READMEfiles/imagebug.png)
+
+</details>
+
+**Score** - T
 
 ## Technologies Used
 
