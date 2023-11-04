@@ -76,9 +76,13 @@ function checkAnswer(button) {
   if (button.textContent === questions[currentQuestionIndex].correctAnswer) {
     correctAnswers++; // Increase the correctAnswers count
     document.getElementById("score-correct").textContent = correctAnswers; // Update the correct answers display
+    alert("Correct! Great job! ");
   } else {
     incorrectAnswers++; //Increase the incorrectAnswers count
     document.getElementById("score-incorrect").textContent = incorrectAnswers; // Update the incorrect answers display
+    alert(
+      `Sorry, that's incorrect. The correct answer is: ${questions[currentQuestionIndex].correctAnswer}`
+    );
   }
 
   currentQuestionIndex++;
