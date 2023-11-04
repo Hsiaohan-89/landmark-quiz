@@ -3,52 +3,52 @@
  */
 const questions = [
   {
-    image: "/assets/images/Australia.jpg",
+    image: "assets/images/Australia.jpg",
     answers: ["Germany", "Australia", "New Zealand"],
     correctAnswer: "Australia",
   },
   {
-    image: "/assets/images/brazil.jpg",
+    image: "assets/images/brazil.jpg",
     answers: ["United States", "Mexico", "Brazil"],
     correctAnswer: "Brazil",
   },
   {
-    image: "/assets/images/Egypt.jpg",
+    image: "assets/images/Egypt.jpg",
     answers: ["Sudan", "Egypt", "Jordan"],
     correctAnswer: "Egypt",
   },
   {
-    image: "/assets/images/Japan.jpg",
+    image: "assets/images/Japan.jpg",
     answers: ["Japan", "France", "Korea"],
     correctAnswer: "Japan",
   },
   {
-    image: "/assets/images/UK.jpg",
+    image: "assets/images/UK.jpg",
     answers: ["Germany", "Ireland", "United Kingdom"],
     correctAnswer: "United Kingdom",
   },
   {
-    image: "/assets/images/Italy.jpg",
+    image: "assets/images/Italy.jpg",
     answers: ["Italy", "Portugal", "Slovenia"],
     correctAnswer: "Italy",
   },
   {
-    image: "/assets/images/Turkey.jpg",
+    image: "assets/images/Turkey.jpg",
     answers: ["Plovdiv", "Serbia", "Turkey"],
     correctAnswer: "Turkey",
   },
   {
-    image: "/assets/images/Korea.jpg",
+    image: "assets/images/Korea.jpg",
     answers: ["Korea", "China", "Taiwan"],
     correctAnswer: "Korea",
   },
   {
-    image: "/assets/images/Malasia.jpg",
+    image: "assets/images/Malasia.jpg",
     answers: ["Indonesia", "Malaysia", "Thailand"],
     correctAnswer: "Malaysia",
   },
   {
-    image: "/assets/images/Singapore.jpg",
+    image: "assets/images/Singapore.jpg",
     answers: ["Thanland", "Taiwan", "Singapore"],
     correctAnswer: "Singapore",
   },
