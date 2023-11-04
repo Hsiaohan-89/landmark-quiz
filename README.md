@@ -84,7 +84,16 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 
 </details>
 
-**Score** - T
+**Score** - A bug was deteced when click the correct and the incorrect answer the score number are not changed it. becasue was only use the function when the game finished and the result will calculated. After amend the code in checkAnswer ++ with the correctAnswer ++, and it worked fine.
+
+**Landmark Image** - A bug was deteced in the early stage, the image was not able to load when the game started. Only has the fram showed when user clicked the button.
+
+<details>
+<summary>Landmark Image</summary>
+
+![Landmark Image](assets/READMEfiles/imagebug.png)
+
+</details>
 
 ## Technologies Used
 
@@ -114,6 +123,8 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 ## Testing
 
 ### Manual Testing
+
+**Wellcome alert**
 
 ### Lighthouse Testing
 
