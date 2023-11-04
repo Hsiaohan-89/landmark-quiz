@@ -23,7 +23,7 @@ Landmark Quiz is a website that features landmark pictures from different countr
 
 - **Header**
 
-  - Featured at the top of the page, the header shows the game name. Landmark Quiz in a font xxxx
+  - Featured at the top of the page, the header shows the game name. Landmark Quiz.
   - This header clearly tell the user what game they are playing.
 
 ![Header](assets/READMEfiles/header.jpg)
@@ -38,14 +38,15 @@ Landmark Quiz is a website that features landmark pictures from different countr
 
 - **The Game Results**
 
-  - When the user clicks an option, the information such as the number of landmarks correctly identified, the number of attempts made, will shown in the below of the option.
-  - The results and the socre are clear to user, making the game easy to play. understand how many quiz has been answered.
+  - When the user clicks an option, the information such as the number of landmarks correctly identified, and the number of attempts made, will shown below the option.
+  - The results and the score are clear to the user, making the game easy to play. understand how many quiz has been answered.
 
 ![The Game Results](assets/READMEfiles/result.jpg)
 
 ### Features to Implement in the future
 
-- xxxxxxx
+- **Morr Quiz**
+- **Feature** - Have more quizzes and interactive functions.
 
 ## Design
 
@@ -90,7 +91,7 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 
 </details>
 
-**Score** - A bug was deteced when click the correct and the incorrect answer the score number are not changed it. becasue was only use the function when the game finished and the result will calculated. After amend the code in checkAnswer ++ with the correctAnswer ++, and it worked fine.
+**Score** - A bug was detected when clicking the correct and incorrect answer the score number is not changed. because was only use the function when the game finishes and the result will be calculated. After amended the code in checkAnswer ++ with the correctAnswer ++, and it worked fine.
 
 **Landmark Image** - A bug was detected in the early stage, the image was not able to load when the game started. Only the frame showed when the user clicked the button.
 
