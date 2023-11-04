@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <!--google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
 
     <!--favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -19,37 +22,41 @@
   </head>
   <body>
     <main>
-        <div class="container">
-            <!--header-->
-            <div>
-                <h1 class="heading">
-                    <i class="fa-solid fa-landmark"></i> Landmark Quiz
-                </h1>
-            </div>
-            <!--game-area-->
-            <div class="game-area">
-                <div class="landmark">
-                    <div><img id="question-image" src=""/></div>
-                </div>
-                <div>
-                    <p class="description">Guess which conutry's landmark is this?</p>
-                </div>
-            
-                <div id="answer-btn" class="btns">
-                    <button class="btn" onclick="checkAnswer(this)"></button>
-                    <button class="btn" onclick="checkAnswer(this)"></button>
-                    <button class="btn" onclick="checkAnswer(this)"></button>
-                </div>
-            </div>
-            <!--score-area-->
-            <div class="score-area">
-                <p class="scores">Correct Answers: <span id="score-correct">0</span></p>
-                <p class="scores">Incorrect Answers: <span id="score-incorrect">0</span></p>
-                <!--<button id="submit">submit</button>-->
-            </div>
-            </main>
+      <div class="container">
+        <!--header-->
+        <div>
+          <h1 class="heading">
+            <i class="fa-solid fa-landmark"></i> Landmark Quiz
+          </h1>
         </div>
-      
+        <!--game-area-->
+        <div class="game-area">
+          <div class="landmark">
+            <div><img id="question-image" src="" alt="landmark-image" /></div>
+          </div>
+          <div>
+            <p class="description">Guess which conutry's landmark is this?</p>
+          </div>
+
+          <div id="answer-btn" class="btns">
+            <button class="btn" onclick="checkAnswer(this)"></button>
+            <button class="btn" onclick="checkAnswer(this)"></button>
+            <button class="btn" onclick="checkAnswer(this)"></button>
+          </div>
+        </div>
+        <!--score-area-->
+        <div class="score-area">
+          <p class="scores">
+            Correct Answers: <span id="score-correct">0</span>
+          </p>
+          <p class="scores">
+            Incorrect Answers: <span id="score-incorrect">0</span>
+          </p>
+          <!--<button id="submit">submit</button>-->
+        </div>
+      </div>
+    </main>
+
     <!--footer section-->
     <footer></footer>
 

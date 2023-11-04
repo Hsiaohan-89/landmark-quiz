@@ -62,7 +62,6 @@ let correctAnswers = 0;
 let incorrectAnswers = 0;
 
 function loadQuestion(index) {
-  alert("Wellcome to the game!");
   const answerButtons = document.getElementsByClassName("btn");
   const questionImage = document.getElementById("question-image");
 
@@ -103,3 +102,4 @@ function endQuiz() {
  * To start the game in the first
  */
 loadQuestion(currentQuestionIndex);
+alert("Wellcome to the game!");
