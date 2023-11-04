@@ -45,8 +45,8 @@ Landmark Quiz is a website that features landmark pictures from different countr
 
 ### Features to Implement in the future
 
-- **Morr Quiz**
-- **Feature** - Have more quizzes and interactive functions.
+- **More Quiz**
+  - **Feature** - Have more quizzes and interactive functions.
 
 ## Design
 
