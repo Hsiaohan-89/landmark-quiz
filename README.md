@@ -15,6 +15,12 @@ Landmark Quiz is a website that features landmark pictures from different countr
 
 ### Existing Features
 
+- **Welcome Alert**
+  
+  - Welcome Alert will prompt when the user is enter the website.
+
+![Welcome Alert](assets/READMEfiles/welcomeAlert.jpg)
+
 - **Header**
 
   - Featured at the top of the page, the header shows the game name. Landmark Quiz in a font xxxx
@@ -91,7 +97,7 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 <details>
 <summary>Landmark Image</summary>
 
-![Landmark Image](assets/READMEfiles/imagebug.png)
+![Landmark Image](assets/READMEfiles/image_bug2.jpg)
 
 </details>
 
@@ -126,7 +132,43 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 
 **Wellcome alert**
 
+- **_Expect_** - When the uset enter the webpage first will have a prompt showed to welcome user.
+- **_Action_** - Cliek the landmard quiz link.
+- **_Reault_** - The prompt is successfully prompt welcome user.
+  
+  <deaails>
+  
+  ![Welcome alert](assets/READMEfiles/welcomeAlert.jpg)
+
+**Result section**
+
+- **_Expect_** - When the user select the correct answer or the wrong answer the result section will show how many were answered correct and how many were incorrect.
+- **_Action_** - Select the correct correct answer and the result will add 1 number, otherwise will add 1 incorrect.
+- **_Reault_** - The result react correctly when the user select the right answer and the wrong answer.
+  
+  <deaails>
+ ![Result section](assets/READMEfiles/resultAnswer.jpg)
+
+**Landmark Image**
+
+- **_Expect_** - Wehn the user finish one question, the next image will appear immidiately.
+- **_Action_** - Choose any of the answer.
+- **_Reault_** - The image appear when the user select one of the answer.
+  
+   <deaails>
+   ![Landmark Image](assets/READMEfiles/landmarkImage.jpg)
+
 ### Lighthouse Testing
+
+**_Landmark Quiz_**
+
+<details>
+
+<summary>Landmark Quiz</summary>
+
+![Home page](assets/READMEfiles/lighthouse.jpg)
+
+</details>
 
 ## Deployment
 
@@ -156,9 +198,21 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 ### Media
 
 - The backgronnd is sourced from [Pexels](https://www.pexels.com/search/map/).
+- The pictures were found from the [Travel news website](https://kknews.cc/travel/xmplpaq.html#google_vignette).
 
 [Back to top ⇧](#landmark-quiz)
 
+### Code
+
+The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
+
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [JSHint](https://jshint.com/ "Link to JS Hint page")
+
 ## Acknowledgements
+
+ - I would like to tank my friend who fave me some of the advice for my Landmrrk quiz idea.
+ - I would like to thank code insitute tutor John who help me with lot of isseus that I met during the coding.
 
 [Back to top ⇧](#landmark-quiz)
