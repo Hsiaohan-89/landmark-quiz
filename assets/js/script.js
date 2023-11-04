@@ -24,7 +24,7 @@ const questions = [
   },
   {
     image: "/assets/images/UK.jpg",
-    answers: ["Germany", "Ireland", "United Kimdom"],
+    answers: ["Germany", "Ireland", "United Kingdom"],
     correctAnswer: "United Kingdom",
   },
   {
@@ -62,6 +62,7 @@ let correctAnswers = 0;
 let incorrectAnswers = 0;
 
 function loadQuestion(index) {
+  alert("Wellcome to the game!");
   const answerButtons = document.getElementsByClassName("btn");
   const questionImage = document.getElementById("question-image");
 
@@ -74,7 +75,11 @@ function loadQuestion(index) {
 
 function checkAnswer(button) {
   if (button.textContent === questions[currentQuestionIndex].correctAnswer) {
-    correctAnswers++;
+    correctAnswers++; // Increase the correctAnswers count
+    document.getElementById("score-correct").textContent = correctAnswers; // Update the correct answers display
+  } else {
+    incorrectAnswers++; //Increase the incorrectAnswers count
+    document.getElementById("score-incorrect").textContent = incorrectAnswers; // Update the incorrect answers display
   }
 
   currentQuestionIndex++;
@@ -85,6 +90,7 @@ function checkAnswer(button) {
     endQuiz();
   }
 }
+
 function endQuiz() {
   document.getElementById("answer-btn").style.display = "none";
   document.getElementById("submit").style.display = "block";
