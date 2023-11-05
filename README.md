@@ -43,6 +43,13 @@ Landmark Quiz is a website that features landmark pictures from different countr
 
 ![The Game Results](assets/READMEfiles/result.jpg)
 
+- **Social Media Account**
+
+  - The icons are appropriate representations of the Social Media platforms, GitHub account. The icons appear in the centre of the footer.
+
+![Social Media Account](assets/READMEfiles/footer.jpg)
+
+
 ### Features to Implement in the future
 
 - **More Quiz**
@@ -158,6 +165,20 @@ The developer ran into a lot of the issues during the developemnnt of the game.
   
    <deaails>
    ![Landmark Image](assets/READMEfiles/landmarkImage.jpg)
+
+**_Social icon link_**
+
+- **_Expect_** - Social icon when clicked will open another page and to the sign in page.
+- **_Action_** - Clicked on the social icon
+- **_Result_** - open a new page with sign in to your social account.
+
+<details>
+
+<summary>Social icon link</summary>
+
+![Social icon link](assets/READMEfiles)
+
+</details>
 
 ### Lighthouse Testing
 
