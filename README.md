@@ -70,6 +70,18 @@ The scope of this game is to explore the benefits of using Landmark Quiz as a to
 
 ![The Game Results](assets/READMEfiles/result.jpg)
 
+- **Correct Alert**
+
+  - When the user select the corrtct answer. The alert prompt will showed Correct! Great job!
+
+![Correct Alert](assets/READMEfiles/alertCorrect.jpg)
+
+- **Incorrect Alert**
+
+  - When the user select the incorrtct answer. The alert prompt will showed sorry, that's the incorrect. The correct answer is: XXXX.
+
+![Incorrect Alert](assets/READMEfiles/AlertIncorrect.jpg)
+
 - **Social Media Account**
 
   - The icons are appropriate representations of the Social Media platforms, GitHub account. The icons appear in the centre of the footer.
@@ -191,7 +203,35 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 - **_Reault_** - The image appear when the user select one of the answer.
   
    <deaails>
-   ![Landmark Image](assets/READMEfiles/landmarkImage.jpg)
+![Landmark Image](assets/READMEfiles/landmarkImage.jpg)
+
+**_Correct Alert_**
+
+- **_Expect_** - When user select right answer, the alert will show to let user know that's the right answer.
+- **_Action_** - Select the right answer from the button.
+- **_Result_** - The alert show Correct, Great job!.
+
+<details>
+
+<summary>Correct Alert</summary>
+
+![Correct Alert](assets/READMEfiles/alertCorrect.jpg)
+
+</details>
+
+**_Incorrect Alert_**
+
+- **_Expect_** - When user select wrong answer, the alert will show to let user know that's the wrong answer, and which one is the right answer.
+- **_Action_** - Select the wrong answer from the button.
+- **_Result_** - The alert show Sorry, that's the incorrect. The correct answer is: XXXX.
+
+<details>
+
+<summary>Incorrect Alert</summary>
+
+![Incorrect Alert](assets/READMEfiles/AlertIncorrect.jpg)
+
+</details>
 
 **_Social icon link_**
 
@@ -206,6 +246,27 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 ![Social icon link](assets/READMEfiles/footer.jpg)
 
 </details>
+
+### Validator Testing
+
+**HTML**
+
+ [The W3C Markup](https://validator.w3.org/#validate_by_input)
+ 
+ ![HTML Error](assets/READMEfiles/HTMLerror.jpg)
+
+ There is an error that haven't been fix.
+
+ **CSS Style**
+
+ [The W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+ ![CSS Validator result](assets/READMEfiles/CSSValidator.jpg)
+ 
+ **JavaScript**
+
+ [JS Hint](https://jshint.com/)
+ 
+ ![JavaScript Validator](assets/READMEfiles/JShint.jpg)
 
 ### Lighthouse Testing
 
