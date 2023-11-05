@@ -101,14 +101,9 @@ The scope of this game is to explore the benefits of using Landmark Quiz as a to
 
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
 
-<details>
-<summary>Balsamiq Wireframes</summary>
-
 ![Site Wireframes](assets/READMEfiles/New_Wireframe_1.png)
 ![Site Wireframes](assets/READMEfiles/New_Wireframe_2.png)
 ![Site Wireframes](assets/READMEfiles/New_Wireframe_3.png)
-
-</details>
 
 #### Typography
 
@@ -178,7 +173,7 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 
 ### Manual Testing
 
-**Wellcome alert**
+**_Wellcome alert_**
 
 - **_Expect_** - When the uset enter the webpage first will have a prompt showed to welcome user.
 - **_Action_** - Cliek the landmard quiz link.
@@ -188,21 +183,21 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 
   ![Welcome alert](assets/READMEfiles/welcomeAlert.jpg)
 
-**Result section**
+**_Result section_**
 
 - **_Expect_** - When the user select the correct answer or the wrong answer the result section will show how many were answered correct and how many were incorrect.
 - **_Action_** - Select the correct correct answer and the result will add 1 number, otherwise will add 1 incorrect.
 - **_Reault_** - The result react correctly when the user select the right answer and the wrong answer.
   <deaails>
-![Result section](assets/READMEfiles/resultAnswer.jpg)
+  ![Result section](assets/READMEfiles/resultAnswer.jpg)
 
-**Landmark Image**
+**_Landmark Image_**
 
 - **_Expect_** - Wehn the user finish one question, the next image will appear immidiately.
 - **_Action_** - Choose any of the answer.
 - **_Reault_** - The image appear when the user select one of the answer.
-   <deaails>
-![Landmark Image](assets/READMEfiles/landmarkImage.jpg)
+  <deaails>
+  ![Landmark Image](assets/READMEfiles/landmarkImage.jpg)
 
 **_Correct Alert_**
 
@@ -210,7 +205,7 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 - **_Action_** - Select the right answer from the button.
 - **_Result_** - The alert show Correct, Great job!.
   <deaails>
-![Correct Alert](assets/READMEfiles/alertCorrect.jpg)
+  ![Correct Alert](assets/READMEfiles/alertCorrect.jpg)
 
 **_Incorrect Alert_**
 
@@ -218,7 +213,7 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 - **_Action_** - Select the wrong answer from the button.
 - **_Result_** - The alert show Sorry, that's the incorrect. The correct answer is: XXXX.
   <deaails>
-![Incorrect Alert](assets/READMEfiles/AlertIncorrect.jpg)
+  ![Incorrect Alert](assets/READMEfiles/AlertIncorrect.jpg)
 
 **_Social icon link_**
 
@@ -226,11 +221,11 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 - **_Action_** - Clicked on the social icon
 - **_Result_** - open a new page with sign in to your social account.
   <deaails>
-![Social icon link](assets/READMEfiles/footer.jpg)
+  ![Social icon link](assets/READMEfiles/footer.jpg)
 
 ### Validator Testing
 
-**HTML**
+**_HTML_**
 
 [The W3C Markup](https://validator.w3.org/#validate_by_input)
 
@@ -238,13 +233,12 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 
 There is an error that haven't been fix.
 
-**CSS Style**
+**_CSS Style_**
 
 [The W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 ![CSS Validator result](assets/READMEfiles/CSSValidator.jpg)
 
-**JavaScript**
-
+**_JavaScript_**
 
 [JS Hint](https://jshint.com/)
 
@@ -255,7 +249,6 @@ There is an error that haven't been fix.
 **_Landmark Quiz_**
 
 <details>
-
 <summary>Landmark Quiz</summary>
 
 ![Home page](assets/READMEfiles/lighthouse01.jpg)
