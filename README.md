@@ -257,7 +257,7 @@ There is an error that haven't been fix.
 
 <summary>Landmark Quiz</summary>
 
-![Home page](assets/READMEfiles)
+![Home page](assets/READMEfiles/lighthouse01.jpg)
 
 </details>
 
