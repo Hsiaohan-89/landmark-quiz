@@ -11,6 +11,33 @@ Landmark Quiz is a website that features landmark pictures from different countr
 
 [Back to top ⇧](#landmark-quiz)
 
+## UX
+
+### Ideal User Demographic
+
+The ideal user for this website is :
+
+- Everyone who travel a lot and like games.
+- People who like to learn about the other country landmark.
+
+### User-Stories
+
+### Goals
+
+- Play games meanwhile also learning about the country's landmarks and culture.
+- Why Landmark Quiz is the perfect game to play with friends and family.
+- How Landmark Quiz can help you plan your next travel adventure.
+
+### Development-Planes
+Unlock your inner explorer with Landmark Quiz! Test your knowledge of the world's most famous landmarks while expanding your cultural horizons. 
+
+#### Strategy
+
+With each correct answer, you'll feel a sense of accomplishment and a desire to keep going. The world is full of wonders waiting to be discovered, so why not start your journey today with Landmark Quiz? 
+
+#### Scope
+The scope of this game is to explore the benefits of using Landmark Quiz as a tool for expanding one's cultural knowledge. Additionally, the game will explore how Landmark Quiz can be used as a fun and interactive way to teach children about different cultures and landmarks around the world. 
+
 ## Features
 
 ### Existing Features
@@ -216,6 +243,10 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
   - [Love maths website](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode)
   - [GreatStack](https://www.youtube.com/@GreatStackDev)
   - [Mikke Gose Coding](https://mikkegoes.com/javascript-projects-for-beginners/)
+  - [Chat GPT](https://chat.openai.com/)
+  - [MDN Web Developer](https://developer.mozilla.org/en-US/)
+  - [W3School](https://www.w3schools.com/)
+  - [Guess The Flag](https://devpost.com/software/guess-the-flag)
 
 ### Media
 
