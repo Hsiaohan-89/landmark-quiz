@@ -193,7 +193,7 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 - **_Expect_** - When the user select the correct answer or the wrong answer the result section will show how many were answered correct and how many were incorrect.
 - **_Action_** - Select the correct correct answer and the result will add 1 number, otherwise will add 1 incorrect.
 - **_Reault_** - The result react correctly when the user select the right answer and the wrong answer.
- <deaails>
+  <deaails>
 ![Result section](assets/READMEfiles/resultAnswer.jpg)
 
 **Landmark Image**
@@ -244,6 +244,7 @@ There is an error that haven't been fix.
 ![CSS Validator result](assets/READMEfiles/CSSValidator.jpg)
 
 **JavaScript**
+
 
 [JS Hint](https://jshint.com/)
 
