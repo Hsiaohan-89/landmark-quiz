@@ -176,7 +176,7 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 
 <summary>Social icon link</summary>
 
-![Social icon link](assets/READMEfiles)
+![Social icon link](assets/READMEfiles/footer.jpg)
 
 </details>
 
