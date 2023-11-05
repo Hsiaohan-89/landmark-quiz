@@ -29,21 +29,23 @@ The ideal user for this website is :
 - How Landmark Quiz can help you plan your next travel adventure.
 
 ### Development-Planes
-Unlock your inner explorer with Landmark Quiz! Test your knowledge of the world's most famous landmarks while expanding your cultural horizons. 
+
+Unlock your inner explorer with Landmark Quiz! Test your knowledge of the world's most famous landmarks while expanding your cultural horizons.
 
 #### Strategy
 
-With each correct answer, you'll feel a sense of accomplishment and a desire to keep going. The world is full of wonders waiting to be discovered, so why not start your journey today with Landmark Quiz? 
+With each correct answer, you'll feel a sense of accomplishment and a desire to keep going. The world is full of wonders waiting to be discovered, so why not start your journey today with Landmark Quiz?
 
 #### Scope
-The scope of this game is to explore the benefits of using Landmark Quiz as a tool for expanding one's cultural knowledge. Additionally, the game will explore how Landmark Quiz can be used as a fun and interactive way to teach children about different cultures and landmarks around the world. 
+
+The scope of this game is to explore the benefits of using Landmark Quiz as a tool for expanding one's cultural knowledge. Additionally, the game will explore how Landmark Quiz can be used as a fun and interactive way to teach children about different cultures and landmarks around the world.
 
 ## Features
 
 ### Existing Features
 
 - **Welcome Alert**
-  
+
   - Welcome Alert will prompt when the user is enter the website.
 
 ![Welcome Alert](assets/READMEfiles/welcomeAlert.jpg)
@@ -87,7 +89,6 @@ The scope of this game is to explore the benefits of using Landmark Quiz as a to
   - The icons are appropriate representations of the Social Media platforms, GitHub account. The icons appear in the centre of the footer.
 
 ![Social Media Account](assets/READMEfiles/footer.jpg)
-
 
 ### Features to Implement in the future
 
@@ -182,9 +183,9 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 - **_Expect_** - When the uset enter the webpage first will have a prompt showed to welcome user.
 - **_Action_** - Cliek the landmard quiz link.
 - **_Reault_** - The prompt is successfully prompt welcome user.
-  
+
   <deaails>
-  
+
   ![Welcome alert](assets/READMEfiles/welcomeAlert.jpg)
 
 **Result section**
@@ -192,16 +193,14 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 - **_Expect_** - When the user select the correct answer or the wrong answer the result section will show how many were answered correct and how many were incorrect.
 - **_Action_** - Select the correct correct answer and the result will add 1 number, otherwise will add 1 incorrect.
 - **_Reault_** - The result react correctly when the user select the right answer and the wrong answer.
-  
-  <deaails>
- ![Result section](assets/READMEfiles/resultAnswer.jpg)
+ <deaails>
+![Result section](assets/READMEfiles/resultAnswer.jpg)
 
 **Landmark Image**
 
 - **_Expect_** - Wehn the user finish one question, the next image will appear immidiately.
 - **_Action_** - Choose any of the answer.
 - **_Reault_** - The image appear when the user select one of the answer.
-  
    <deaails>
 ![Landmark Image](assets/READMEfiles/landmarkImage.jpg)
 
@@ -210,63 +209,45 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 - **_Expect_** - When user select right answer, the alert will show to let user know that's the right answer.
 - **_Action_** - Select the right answer from the button.
 - **_Result_** - The alert show Correct, Great job!.
-
-<details>
-
-<summary>Correct Alert</summary>
-
+  <deaails>
 ![Correct Alert](assets/READMEfiles/alertCorrect.jpg)
-
-</details>
 
 **_Incorrect Alert_**
 
 - **_Expect_** - When user select wrong answer, the alert will show to let user know that's the wrong answer, and which one is the right answer.
 - **_Action_** - Select the wrong answer from the button.
 - **_Result_** - The alert show Sorry, that's the incorrect. The correct answer is: XXXX.
-
-<details>
-
-<summary>Incorrect Alert</summary>
-
+  <deaails>
 ![Incorrect Alert](assets/READMEfiles/AlertIncorrect.jpg)
-
-</details>
 
 **_Social icon link_**
 
 - **_Expect_** - Social icon when clicked will open another page and to the sign in page.
 - **_Action_** - Clicked on the social icon
 - **_Result_** - open a new page with sign in to your social account.
-
-<details>
-
-<summary>Social icon link</summary>
-
+  <deaails>
 ![Social icon link](assets/READMEfiles/footer.jpg)
-
-</details>
 
 ### Validator Testing
 
 **HTML**
 
- [The W3C Markup](https://validator.w3.org/#validate_by_input)
- 
- ![HTML Error](assets/READMEfiles/HTMLerror.jpg)
+[The W3C Markup](https://validator.w3.org/#validate_by_input)
 
- There is an error that haven't been fix.
+![HTML Error](assets/READMEfiles/HTMLerror.jpg)
 
- **CSS Style**
+There is an error that haven't been fix.
 
- [The W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
- ![CSS Validator result](assets/READMEfiles/CSSValidator.jpg)
- 
- **JavaScript**
+**CSS Style**
 
- [JS Hint](https://jshint.com/)
- 
- ![JavaScript Validator](assets/READMEfiles/JShint.jpg)
+[The W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+![CSS Validator result](assets/READMEfiles/CSSValidator.jpg)
+
+**JavaScript**
+
+[JS Hint](https://jshint.com/)
+
+![JavaScript Validator](assets/READMEfiles/JShint.jpg)
 
 ### Lighthouse Testing
 
@@ -326,7 +307,7 @@ The developer consulted multiple sites in order to better understand the code th
 
 ## Acknowledgements
 
- - I would like to tank my friend who fave me some of the advice for my Landmrrk quiz idea.
- - I would like to thank code insitute tutor John who help me with lot of isseus that I met during the coding.
+- I would like to tank my friend who fave me some of the advice for my Landmrrk quiz idea.
+- I would like to thank code insitute tutor John who help me with lot of isseus that I met during the coding.
 
 [Back to top ⇧](#landmark-quiz)
