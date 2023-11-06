@@ -111,7 +111,7 @@ function endQuiz() {
 }
 
 /**
- * To start the game in the first
+ * To start the game in the beginning
  */
 loadQuestion(currentQuestionIndex);
-alert("Wellcome to the game!");
+alert("Welcome to the game!");
