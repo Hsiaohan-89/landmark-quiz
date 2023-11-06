@@ -88,9 +88,6 @@ function checkAnswer(button) {
   } else {
     incorrectAnswers++; //Increase the incorrectAnswers count
     document.getElementById("score-incorrect").textContent = incorrectAnswers; // Update the incorrect answers display
-    alert(
-      `Sorry, that's incorrect. The correct answer is: ${questions[currentQuestionIndex].correctAnswer}`
-    );
   }
 
   currentQuestionIndex++;
