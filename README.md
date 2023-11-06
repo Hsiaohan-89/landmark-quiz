@@ -232,6 +232,7 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 ![HTML Error](assets/READMEfiles/HTMLerror.jpg)
 
 Fixed with using placeholder.
+
 ![Placeholder](assets/READMEfiles/HTMLerrorfixed.jpg)
 ![Placeholder Code](assets/READMEfiles/HTMLimgerrorfixed.jpg)
 
@@ -250,6 +251,8 @@ Fix the warning by go to the configure and active the ES6 and no more warning.
 
 ![JavaScript Validator](assets/READMEfiles/JShint.jpg)
 
+
+### Unfixed bugs
 
 
 
