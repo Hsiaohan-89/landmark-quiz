@@ -231,7 +231,9 @@ The developer ran into a lot of the issues during the developemnnt of the game.
 
 ![HTML Error](assets/READMEfiles/HTMLerror.jpg)
 
-There is an error that haven't been fix.
+Fixed with using placeholder.
+![Placeholder](assets/READMEfiles/HTMLerrorfixed.jpg)
+![Placeholder Code](assets/READMEfiles/HTMLimgerrorfixed.jpg)
 
 **_CSS Style_**
 
@@ -240,9 +242,16 @@ There is an error that haven't been fix.
 
 **_JavaScript_**
 
+The error about the ES6 function.
+
+Fix the warning by go to the configure and active the ES6 and no more warning.
+
 [JS Hint](https://jshint.com/)
 
 ![JavaScript Validator](assets/READMEfiles/JShint.jpg)
+
+
+
 
 ### Lighthouse Testing
 
