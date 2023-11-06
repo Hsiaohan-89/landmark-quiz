@@ -251,10 +251,27 @@ Fix the warning by go to the configure and active the ES6 and no more warning.
 
 ![JavaScript Validator](assets/READMEfiles/JShint.jpg)
 
+**_JavaScript_**
+
+The unused variable
+
+![Unused variable](assets/READMEfiles/JShint01.jpg)
+
+Fix the unused variable to give const answerButtons
+
+![Fixed unused variable](assets/READMEfiles/JShint01_1.jpg)
 
 ### Unfixed bugs
 
+One warning of JS Hint
 
+![Warning](assets/READMEfiles/JShint02.jpg)
+![code](assets/READMEfiles/JShint02_1.jpg)
+
+There are two scroe, correct answers ans incorrect asnwers in the same time.
+And the correct answer alert and incorrect answers alert shown in the same time.
+
+![bugs](assets/READMEfiles/unsolveBug.jpg)
 
 ### Lighthouse Testing
 
