@@ -72,7 +72,7 @@ function loadQuestion(index) {
   }
 }
 
-function checkAnswer() {
+function checkAnswer(button) {
   if (button.textContent === questions[currentQuestionIndex].correctAnswer) {
     correctAnswers++; // Increase the correctAnswers count
     document.getElementById("score-correct").textContent = correctAnswers; // Update the correct answers display
