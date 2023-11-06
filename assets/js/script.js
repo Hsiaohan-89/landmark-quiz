@@ -74,9 +74,11 @@ function loadQuestion(index) {
 
 const answerButtons = document.getElementsByClassName("btn");
 
-answerButtons.addEventListener("click", function () {
-  checkAnswer(this); // call the checkAnswer function and pass the button as parameter
-});
+for (let i = 0; i < answerButtons.length; i++) {
+  answerButtons[i].addEventListener("click", function () {
+    checkAnswer(this); // call the checkAnswer function and pass the button as a parameter
+  });
+}
 
 function checkAnswer(button) {
   if (button.textContent === questions[currentQuestionIndex].correctAnswer) {
