@@ -301,7 +301,8 @@ The developer consulted multiple sites in order to better understand the code th
 
 ## Acknowledgements
 
-- I would like to tank my friend who fave me some of the advice for my Landmrrk quiz idea.
+- I would like to tkank my friend who gave me some of the advice for my Landmrrk quiz.
 - I would like to thank code insitute tutor John who help me with lot of isseus that I met during the coding.
+- Also like to thank all of the friends in slack who helped me solve my error for my project.
 
 [Back to top ⇧](#landmark-quiz)
