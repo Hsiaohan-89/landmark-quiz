@@ -67,9 +67,9 @@ function loadQuestion(index) {
 
   questionImage.src = questions[index].image;
 
-  /*for (let i = 0; i < answerButtons.length; i++) {
+  for (let i = 0; i < answerButtons.length; i++) {
     answerButtons[i].textContent = questions[index].answers[i];
-  }*/
+  }
 }
 
 const answerButtons = document.getElementsByClassName("btn");
