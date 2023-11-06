@@ -72,6 +72,12 @@ function loadQuestion(index) {
   }
 }
 
+const answerButtons = document.getElementsByClassName("btn");
+
+answerButtons.addEventListener("click", function () {
+  checkAnswer(this); // call the checkAnswer function and pass the button as parameter
+});
+
 function checkAnswer(button) {
   if (button.textContent === questions[currentQuestionIndex].correctAnswer) {
     correctAnswers++; // Increase the correctAnswers count
